@@ -1,3 +1,4 @@
+import 'package:bmi_calculator/screens/flash_screen.dart';
 import 'package:bmi_calculator/screens/home.dart';
 import 'package:bmi_calculator/screens/splash_screen.dart';
 import 'package:flutter/material.dart';
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.grey,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: SplashScreen(),
+      home: FlashScreen(),
     );
   }
 }

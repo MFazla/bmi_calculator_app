@@ -153,7 +153,7 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
             ),
             SizedBox(
-              height: 15, //20
+              height: 10, //20
             ),
             LeftBar(
               barWidth: 100,
@@ -168,12 +168,9 @@ class _HomeScreenState extends State<HomeScreen> {
             LeftBar(
               barWidth: 70,
             ),
-            SizedBox(
-              height: 2, //20
-            ),
             Image(
               image: AssetImage("assets/images/Healthyhabit-pana.png"),
-              height: 270,
+              height: 230,
             ),
             RightBar(barWidth: 100),
             SizedBox(
