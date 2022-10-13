@@ -136,7 +136,7 @@ class _HomeScreenState extends State<HomeScreen> {
             Container(
               child: Text(
                 _bmiResult.toStringAsFixed(2),
-                style: TextStyle(fontSize: 55, color: Color(0xff253238)),
+                style: TextStyle(fontSize: 54, color: Color(0xff253238)),
               ),
             ),
             SizedBox(
